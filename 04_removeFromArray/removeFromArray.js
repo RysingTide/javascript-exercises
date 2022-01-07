@@ -8,5 +8,6 @@ const removeFromArray = function(arr, ...vals) {
   return arr;
 };
 
+
 // Do not edit below this line
 module.exports = removeFromArray;
