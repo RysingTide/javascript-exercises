@@ -1,7 +1,7 @@
 const ftoc = function(fahrenheit) {
   celcius = (fahrenheit - 32) * (5/9);
   if (celcius % 1 !== 0) {
-    return celcius.toFixed(1);
+    return +celcius.toFixed(1);
   } else {
     return celcius;
   }
