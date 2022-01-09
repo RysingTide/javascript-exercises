@@ -10,7 +10,7 @@ const ftoc = function(fahrenheit) {
 const ctof = function(celcius) {
   fahrenheit = (celcius * 9/5) + 32;
   if (fahrenheit % 1 !== 0) {
-    return fahrenheit.toFixed(1);
+    return +fahrenheit.toFixed(1);
   }
   return fahrenheit;
 };
